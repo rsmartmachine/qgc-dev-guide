@@ -29,7 +29,7 @@ To get the source files:
 
 - **macOS:** v10.11 or higher
 - **Ubuntu:** 64 bit, gcc compiler
-- **Windows:** Vista or higher, [Visual Studio 2015 compiler](https://visualstudio.microsoft.com/vs/older-downloads/) (32 bit)
+- **Windows:** Vista or higher, Ensure [Visual Studio 2015 compiler](https://visualstudio.microsoft.com/vs/older-downloads/) (32 bit) is installed with Visual C++ features selected.
 - **iOS:** 10.0 and higher
 - **Android:** Jelly Bean (4.1) and higher. Standard QGC is built against ndk version 19.
 - **Qt version:** {{ book.qt_version }} **(only)**  <!-- NOTE {{ book.qt_version }} is set in the variables section of gitbook file https://github.com/mavlink/qgc-dev-guide/blob/master/book.json -->
@@ -48,7 +48,7 @@ To install Qt:
 1. In the installer *Select Components* dialog choose: {{ book.qt_version }}.
    
    Then install just the following components: 
-   - **Windows**: *MCVC 2015 32 bit*
+   - **Windows**: *MSVC 2015 32 bit*
    - **MacOS**: *macOS*
    - **Linux**: *Desktop gcc 64-bit*
    - All:
